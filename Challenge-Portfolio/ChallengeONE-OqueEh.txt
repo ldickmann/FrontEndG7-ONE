@@ -1,0 +1,9 @@
+## Tópico retirado do módulo em questãi que trata de Perguntas Frequentes que aborda o que é/são o(s) Challenge(s) ().
+
+O que são os Challenges ONE?
+
+É uma forma de implementar o Challenge Based Learning, ou seja, aprendizado baseado em 
+desafios que a Apple ajudou a criar. É um mecanismo onde você pode se comprometer na 
+resolução de um problema para depois investigar soluções com cursos, conteúdo e palestras; 
+ou até mesmo com o conhecimento que você já tem! Finalmente, você vai agir e colocar o seu projeto no ar. 
+Tudo isso enquanto comenta e ajuda em projetos de outros alunos e alunas.

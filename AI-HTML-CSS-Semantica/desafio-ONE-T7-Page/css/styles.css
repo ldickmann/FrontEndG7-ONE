@@ -1,0 +1,312 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#back-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 80vh;
+}
+
+.busca__categoria {
+  flex: 0 0 20%; 
+  padding: 3rem; 
+  border-radius: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background: var(--cinza-claro, #f5f5f578);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.busca__categorias {
+  display: flex;
+  justify-content: center;
+  gap: 3.5rem; 
+  margin-bottom: 9rem;
+}
+
+.busca {
+  width: 100%;
+  margin-bottom: 4rem;
+}
+
+.busca__titulo {
+  font-family: 'Montserrat-Bold';
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.frame-4,
+.frame-4 * {
+  box-sizing: border-box;
+}
+
+.frame-4 {
+  padding: 0px 360px 0px 360px;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.frame-4__t-tulo-padr-o {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  min-width: 312px;
+  max-width: 600px;
+  position: relative;
+}
+
+.frame-4__destinos-da-excurs-o {
+  color: var(--grafite, #222222);
+  text-align: center;
+  font-family: var(--h3-font-family, "Montserrat-Bold", sans-serif);
+  font-size: var(--h3-font-size, 32px);
+  font-weight: var(--h3-font-weight, 700);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.frame-4__rectangle-1 {
+  background: var(--vermelho, #b81515);
+  flex-shrink: 0;
+  width: 180px;
+  height: 4px;
+  position: relative;
+}
+
+.frame-4__frame-5 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.frame-4__frame-2095 {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 1200px;
+  position: relative;
+}
+
+.frame-4__card-promos {
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  border-radius: 16px;
+  padding: 24px 0px 24px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.frame-4__frame-52 {
+  padding: 0px 32px 0px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 588px;
+  position: relative;
+}
+
+.frame-4__frame-6 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.frame-4__hotel-a-reo {
+  color: var(--branco, #ffffff);
+  text-align: center;
+  font-family: var(--body2-font-family, "Montserrat-Regular", sans-serif);
+  font-size: var(--body2-font-size, 20px);
+  line-height: var(--body2-line-height, 32px);
+  font-weight: var(--body2-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.frame-4__jap-o {
+  color: var(--branco, #ffffff);
+  text-align: center;
+  font-family: var(--h1-font-family, "Montserrat-Bold", sans-serif);
+  font-size: var(--h1-font-size, 48px);
+  font-weight: var(--h1-font-weight, 700);
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.frame-4__r-4000 {
+  color: var(--branco, #ffffff);
+  text-align: center;
+  font-family: var(--h2-font-family, "Montserrat-Bold", sans-serif);
+  font-size: var(--h2-font-size, 40px);
+  font-weight: var(--h2-font-weight, 700);
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.frame-4__bot-o {
+  background: var(--vermelho, #b81515);
+  border-radius: 8px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 280px;
+  position: relative;
+}
+
+.frame-4__ver-detalhes {
+  color: var(--branco, #ffffff);
+  text-align: center;
+  font-family: var(--body2-bold-font-family, "Montserrat-Bold", sans-serif);
+  font-size: var(--body2-bold-font-size, 20px);
+  line-height: var(--body2-bold-line-height, 32px);
+  font-weight: var(--body2-bold-font-weight, 700);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.frame-4__frame-2096 {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 1200px;
+  position: relative;
+}
+
+.frame-4__card-promos2 {
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  border-radius: 16px;
+  padding: 24px 0px 24px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.depoimentos__container {
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.depoimentos__wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.depoimentos__item {
+  flex: 1 0 35%;
+  justify-content: center;
+  padding: 1rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.depoimentos__texto {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+  margin-bottom: 1rem;
+}
+
+.depoimentos__autor {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+
+.depoimentos__autor--info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.depoimentos__autor--nome {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.depoimentos__autor--foto {
+  max-width: 70px;
+}
+
+.depoimentos__estrelas {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.depoimentos__autor--avaliacao-estrela {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.depoimentos__estrelas svg {
+  width: 0.75rem;
+  height: 0.75rem;
+}
+
+.pre-footer__image {
+  min-width: 100%;
+}

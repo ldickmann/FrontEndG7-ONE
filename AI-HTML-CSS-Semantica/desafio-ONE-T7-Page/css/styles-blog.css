@@ -1,0 +1,37 @@
+#back-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80vh;
+}
+
+header {
+    width: 100%;
+}
+
+.titulo__ {
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--Branco, #FFF);
+}
+
+p {
+    font-family: Montserrat;
+}
+@media (325px <= width <= 770px) {
+    #bakc-img {
+        height: 70vh;
+    }
+
+    .titulo__ {
+        margin-top: 7rem;
+    }
+
+    .img-fluid {
+        width: 100%;
+        display: block;
+    }
+}
