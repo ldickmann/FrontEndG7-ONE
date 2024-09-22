@@ -55,7 +55,7 @@ function alterarContexto(contexto) {
     });
 
     html.setAttribute('data-contexto', contexto);
-    banner.setAttribute('src', `./imagens/${contexto}.png`);
+    banner.setAttribute('src', `/Javascript-DOM/Fokus-projeto/imagens/${contexto}.png`);
     switch (contexto) {
         case "foco":
             titulo.innerHTML = `
@@ -81,7 +81,7 @@ function alterarContexto(contexto) {
 
 const contagemRegressiva = () => {
     if (tempoDecorridoSeg <= 0) {
-        // audioTempoFinalizado.play();
+        audioTempoFinalizado.play();
         alert('Tempo Finalizado');
         zerar();
         return
@@ -101,13 +101,13 @@ function iniciarOuPausar() {
     audioPlay.play();
     intervaloId = setInterval(contagemRegressiva, 1000);
     iniciarOuPausarBtn.textContent = "Pausar";
-    iniciarOuPausarImg.setAttribute('src', './imagens/pause.png');
+    iniciarOuPausarImg.setAttribute('src', '/Javascript-DOM/Fokus-projeto/imagens/pause.png');
 }
 
 function zerar() {
     clearInterval(intervaloId);
     iniciarOuPausarBtn.textContent = "Começar";
-    iniciarOuPausarImg.setAttribute('src', './imagens/play_arrow.png');
+    iniciarOuPausarImg.setAttribute('src', '/Javascript-DOM/Fokus-projeto/imagens/play_arrow.png');
     intervaloId = null;
 }
 
