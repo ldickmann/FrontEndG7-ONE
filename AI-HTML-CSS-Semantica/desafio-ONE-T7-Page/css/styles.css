@@ -40,36 +40,7 @@
   margin-bottom: 2rem;
 }
 
-.frame-4,
-.frame-4 * {
-  box-sizing: border-box;
-}
-
-.frame-4 {
-  padding: 0px 360px 0px 360px;
-  display: flex;
-  flex-direction: column;
-  gap: 64px;
-  align-items: center;
-  justify-content: center;
-  align-self: stretch;
-  flex-shrink: 0;
-  position: relative;
-}
-
-.frame-4__t-tulo-padr-o {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  align-items: center;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  min-width: 312px;
-  max-width: 600px;
-  position: relative;
-}
-
-.frame-4__destinos-da-excurs-o {
+.display-4 {
   color: var(--grafite, #222222);
   text-align: center;
   font-family: var(--h3-font-family, "Montserrat-Bold", sans-serif);
@@ -146,7 +117,7 @@
   position: relative;
 }
 
-.frame-4__hotel-a-reo {
+.frame-4__hotel-aereo {
   color: var(--branco, #ffffff);
   text-align: center;
   font-family: var(--body2-font-family, "Montserrat-Regular", sans-serif);
@@ -160,7 +131,7 @@
   justify-content: center;
 }
 
-.frame-4__jap-o {
+.frame-4__japao {
   color: var(--branco, #ffffff);
   text-align: center;
   font-family: var(--h1-font-family, "Montserrat-Bold", sans-serif);
@@ -186,7 +157,7 @@
   justify-content: center;
 }
 
-.frame-4__bot-o {
+.frame-4__botao {
   background: var(--vermelho, #b81515);
   border-radius: 8px;
   padding: 16px;
@@ -309,4 +280,39 @@
 
 .pre-footer__image {
   min-width: 100%;
+}
+
+@media (325px <= width <= 770px) {
+  #back-img {
+    height: 80vh;
+  }
+
+  .titulo__ {
+    margin-top: 10rem;
+  }
+
+  .pre-footer__image {
+    width: 100%;
+  }
+
+  .depoimentos__wrapper {
+    width: 100%;
+    display: block;
+  }
+
+  .col.depoismentos__item {
+    width: 100%;  
+  }
+  
+  section {
+    width: 100%;
+  }
+
+  .botao__container {
+    margin-bottom: 9rem;
+  }
+
+  .col-8.mb-4.mt-4 {
+    min-width: 100%;
+  }
 }
