@@ -22,10 +22,11 @@
 * **Praticando Front End: Challenge Portfólio.**
 * **JavaScript para Web: Crie páginas dinâmicas.**
 * **JavaScript: manipulando elementos no DOM.**
+* **ChatGPT e JavaScript: construa o jogo Pong.**
 
 #### Curso em Desenvolvimento:
 
-* **Curso de:** ChatGPT e JavaScript: construa o jogo Pong.
+* **JavaScript: consumindo e tratando dados de uma API**
 
 ---
 
@@ -34,6 +35,7 @@
 * Os diretórios estão divididos conforme os cursos feitos durante a formação Front-End G7 ONE.
 * Também existem os diretórios dos desafios.
 * Determinados módulos tem exercícios, onde está especificado por numeração crescente a ordem dos mesmos.
+* O diretório 'ChatGPTeJS' está com o desafio diretamente no arquivo 'sketch.js', comentado como '// DESAFIO DO PLACAR'.
   
 ### Minhas redes sociais
 
