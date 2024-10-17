@@ -23,10 +23,11 @@
 * **JavaScript para Web: Crie páginas dinâmicas.**
 * **JavaScript: manipulando elementos no DOM.**
 * **ChatGPT e JavaScript: construa o jogo Pong.**
+* **JavaScript: consumindo e tratando dados de uma API**
 
 #### Curso em Desenvolvimento:
 
-* **JavaScript: consumindo e tratando dados de uma API**
+* **Curso de JavaScript: criando requisições**
 
 ---
 
