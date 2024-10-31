@@ -1,7 +1,7 @@
 
 # Fase 3 do Programa Oracle ONE - Especialização Front-End
 
-### Formações:
+### Formações
 
 #### Formação em Empreendedorismo, Agilidade e Protagonismo na Carreira G7 - Concluído
 
@@ -18,16 +18,17 @@
 #### Cursos Concluídos:
 
 * **IA generativa no Front-end: trabalhando com acessibilidade, semântica e HTML.**
-* **CSS: Flexbox e layouts responsivos.**
-* **Praticando Front End: Challenge Portfólio.**
-* **JavaScript para Web: Crie páginas dinâmicas.**
+* **CSS: flexbox e layouts responsivos.**
+* **Praticando Front End: challenge Portfólio.**
+* **JavaScript para Web: crie páginas dinâmicas.**
 * **JavaScript: manipulando elementos no DOM.**
 * **ChatGPT e JavaScript: construa o jogo Pong.**
 * **JavaScript: consumindo e tratando dados de uma API**
+* **JavaScript: criando requisições**
 
 #### Curso em Desenvolvimento:
 
-* **Curso de JavaScript: criando requisições**
+* **Curso de GitHub Copilot e ChatGPT: impulsionando seu desenvolvimento com IA**
 
 ---
 
@@ -40,4 +41,5 @@
   
 ### Minhas redes sociais
 
-[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/lucas-dickmann) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://instagram.com/luksdickmann) 
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/lucas-dickmann) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://instagram.com/luksdickmann)
+ 
