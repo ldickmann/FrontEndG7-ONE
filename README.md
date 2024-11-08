@@ -25,10 +25,11 @@
 * **ChatGPT e JavaScript: construa o jogo Pong.**
 * **JavaScript: consumindo e tratando dados de uma API**
 * **JavaScript: criando requisições**
+* **GitHub Copilot e ChatGPT: impulsionando seu desenvolvimento com IA**
 
-#### Curso em Desenvolvimento:
+#### Challenge em Desenvolvimento:
 
-* **Curso de GitHub Copilot e ChatGPT: impulsionando seu desenvolvimento com IA**
+* **Desafio Challenge: Praticando Front End - Challenge AluraGeek**
 
 ---
 
