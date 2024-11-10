@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const nameInput = document.querySelector(".input-name");
   const valueInput = document.querySelector(".input-value");
   const fileInput = document.querySelector(".input-file");
-  const productsContainer = document.querySelector(".products-container__2");
+  const productsContainer = document.querySelector(".products-container");
 
   addButton.addEventListener("click", () => {
     const productName = nameInput.value;
