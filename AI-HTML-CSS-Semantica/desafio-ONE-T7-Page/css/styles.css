@@ -1,6 +1,16 @@
-* {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 #back-img {
@@ -64,21 +74,9 @@
   display: flex;
   flex-direction: column;
   gap: 24px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  position: relative;
-}
-
-.frame-4__frame-2095 {
-  display: flex;
-  flex-direction: row;
-  gap: 24px;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-  width: 1200px;
-  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .frame-4__card-promos {
@@ -184,15 +182,25 @@
   justify-content: center;
 }
 
-.frame-4__frame-2096 {
+.ofertas__cards {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   gap: 24px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.ofertas__card {
+  flex: 1 1 calc(50% - 12px);
+  min-height: 300px;
+  border-radius: 16px;
+  padding: 24px;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex-shrink: 0;
-  width: 1200px;
-  position: relative;
 }
 
 .frame-4__card-promos2 {
@@ -282,7 +290,51 @@
   min-width: 100%;
 }
 
-@media (325px <= width <= 770px) {
+@media (max-width: 770px) {
+  .depoimentos__container {
+    max-width: 100%;
+  }
+
+  .depoimentos__wrapper {
+    display: block;
+  }
+
+  .pre-footer__image {
+    width: 100%;
+  }
+
+  .img-fuild {
+    width: 100%;
+  }
+
+  .ofertas__cards {
+    flex-direction: column;
+  }
+
+  .ofertas__card {
+    flex: 1 1 100%;
+    min-height: 250px;
+  }
+
+  .frame-4__frame-52 {
+    width: 100%;
+    padding: 0 16px;
+  }
+
+  .frame-4__japao {
+    font-size: 32px;
+  }
+
+  .frame-4__r-4000 {
+    font-size: 28px;
+  }
+
+  .busca__categorias {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 430px) {
   #back-img {
     height: 80vh;
   }

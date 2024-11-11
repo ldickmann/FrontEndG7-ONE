@@ -407,6 +407,7 @@ footer {
   }
 }
 
+/* Responsividade 430px */
 @media (max-width: 430px) {
   .container-all {
     padding: 0;
