@@ -517,10 +517,10 @@ img {
   }
 
   /* Estilo dos cards */
-.frame-4__card-promos,
-.frame-4__card-promos2 {
-  width: 100%;
-}
+  .frame-4__card-promos,
+  .frame-4__card-promos2 {
+    width: 100%;
+  }
 
   .busca__categorias,
   .destinos__lista,
@@ -533,7 +533,7 @@ img {
   }
 
   .busca__categoria,
-  .destinos__item,  
+  .destinos__item,
   .pagamento__imagens--imagem-container,
   .depoimentos__item {
     flex: 0 0 100%;

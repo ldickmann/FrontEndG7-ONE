@@ -1,51 +1,51 @@
 #back-img {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 80vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 80vh;
 }
 
 .pre-footer__image {
-    min-width: 100%;
+  min-width: 100%;
 }
 
 .titulo__ {
-    font-family: Montserrat;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    color: var(--Branco, #FFF);
+  font-family: Montserrat;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: var(--Branco, #fff);
 }
 
 #titulo__inicio {
-    margin-top: -10%;
+  margin-top: -10%;
 }
 
 p {
-    font-family: Montserrat;
+  font-family: Montserrat;
 }
 
 @media (min-width: 576px) {
-    #back-img {
-        height: 40vh;
-    }
+  #back-img {
+    height: 40vh;
+  }
 }
 
 @media (325px <=width <=770px) {
-    #back-img {
-        height: 75vh;
-    }
-    
-    .pre-footer__image {
-        width: 100%;
-    }
+  #back-img {
+    height: 75vh;
+  }
 
-    .row.g-5.justify-content-md-center {
-        width: 100%;
-    }
+  .pre-footer__image {
+    width: 100%;
+  }
 
-    .titulo__ {
-        margin-top: 7rem;
-    }
+  .row.g-5.justify-content-md-center {
+    width: 100%;
+  }
+
+  .titulo__ {
+    margin-top: 7rem;
+  }
 }
