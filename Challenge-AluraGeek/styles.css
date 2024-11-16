@@ -105,7 +105,6 @@ header {
   background: #5300c8;
   border-radius: 4px;
 }
-/* Fim do botão de rolagem */
 
 /* Container de produtos */
 .products-columns {
@@ -188,7 +187,7 @@ header {
   position: relative;
   flex: 1;
 }
-/* Fim do container de produtos */
+
 /* Formulário */
 .forms-products {
   display: flex;
@@ -267,7 +266,7 @@ header {
   font-size: 1.25rem;
   font-weight: 500;
 }
-/* Fim do formulário */
+
 /* Footer */
 footer {
   background: #5300c8;
@@ -379,9 +378,9 @@ footer {
     border: 3px solid #000000;
   }
 
-.icon-trash {
-  cursor: pointer;
-}
+  .icon-trash {
+    cursor: pointer;
+  }
 
   .forms-products {
     width: 100%;
