@@ -68,13 +68,9 @@ header {
 }
 
 .products-container {
-  display: flex;
-  flex-direction: column;
   padding: 3rem 1rem;
-  justify-content: center;
-  gap: 5rem;
   box-shadow: -12px 10px 5.8px 0px rgba(0, 0, 0, 0.25);
-  max-height: 900px;
+  max-height: 700px;
   overflow-y: auto;
   overflow-x: hidden;
   scroll-behavior: smooth;
@@ -115,6 +111,7 @@ header {
 .products-columns {
   display: flex;
   gap: 10px;
+  padding-bottom: 1rem;
   align-items: flex-start;
   justify-content: flex-start;
   flex-shrink: 0;
@@ -192,13 +189,13 @@ header {
   flex: 1;
 }
 /* Fim do container de produtos */
-
 /* Formulário */
 .forms-products {
   display: flex;
   width: 29.5rem;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: 2.5rem;
 }
 
@@ -271,7 +268,6 @@ header {
   font-weight: 500;
 }
 /* Fim do formulário */
-
 /* Footer */
 footer {
   background: #5300c8;
@@ -321,6 +317,9 @@ footer {
   text-transform: uppercase;
 }
 
+.icon-trash {
+  cursor: pointer;
+}
 /* Responsividades */
 @media (max-width: 769px) {
   body {
@@ -342,14 +341,11 @@ footer {
   }
 
   .products-container {
-    width: 95%;
-    padding: 1rem 0 1rem 0.5rem;
     margin-bottom: 5rem;
     gap: 3rem;
   }
 
   .products-columns {
-    padding: 3rem 3rem 0rem 3rem;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
@@ -357,8 +353,8 @@ footer {
 
   .product-card {
     margin: 0;
-    min-width: calc(90% / 2 - 10px);
-    max-width: calc(90% / 2 - 10px);
+    min-width: calc(90% / 3 - 10px);
+    max-width: calc(90% / 3 - 10px);
   }
 
   .container-img {
@@ -375,15 +371,24 @@ footer {
     object-fit: cover;
   }
 
+  .container-img img {
+    width: 100%;
+    height: 174px;
+    object-fit: cover;
+    border-radius: 5px;
+    border: 3px solid #000000;
+  }
+
+.icon-trash {
+  cursor: pointer;
+}
+
   .forms-products {
     width: 100%;
-    padding: 0 0;
     order: 1;
   }
 
   .forms {
-    display: flex;
-    justify-content: center;
     align-items: center;
   }
 
@@ -396,8 +401,6 @@ footer {
   .buttons {
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding-inline: 2rem;
     gap: 1rem;
   }
 
@@ -453,18 +456,6 @@ footer {
     width: 100%;
     height: 180px;
     object-fit: cover;
-  }
-
-  .forms-products {
-    width: 100%;
-    padding: 0 0;
-    order: 1;
-  }
-
-  .forms {
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
 
   .input-name,
