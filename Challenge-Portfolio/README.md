@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Portfólio de Lucas E. Dickmann</h1>
-  <h2>Portfólio com conteúdo ampliado para publicação também como parte do programa Oracle ONE - Turma T7.</h2>
+  <h2>Portfólio com conteúdo ampliado para publicação também como parte do programa Oracle ONE - Turma G7.</h2>
   <h3>Praticando Front End: Challenge Portfólio</h3>
 </div>
 
