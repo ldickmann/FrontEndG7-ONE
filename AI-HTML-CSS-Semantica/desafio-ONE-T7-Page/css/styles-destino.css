@@ -166,8 +166,12 @@
     height: 80vh;
   }
 
+  .titulo__ {
+    font-size: 30px;
+  }
+
   .texto-image {
-    position: absolute;
     top: 28%;
+    margin-left: 0;
   }
 }
