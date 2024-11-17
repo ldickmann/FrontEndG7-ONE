@@ -5,6 +5,14 @@
   height: 80vh;
 }
 
+.texto-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--Branco, #fff);
+}
+
 header {
   width: 100%;
 }
@@ -21,17 +29,37 @@ header {
 p {
   font-family: Montserrat;
 }
-@media (325px <= width <= 770px) {
-  #bakc-img {
+/* Responsive 768px */
+@media (max-width: 768px) {
+  #back-img {
     height: 70vh;
-  }
-
-  .titulo__ {
-    margin-top: 7rem;
   }
 
   .img-fluid {
     width: 100%;
     display: block;
+  }
+}
+
+/* Responsive 430px */
+@media (max-width: 430px) {
+  #back-img {
+    height: 80vh;
+  }
+
+  .navbar .navbar-expand-lg .bg-black {
+    z-index: 0;
+  }
+
+  .titulo__ {
+    margin: 0 0;
+  }
+
+  .img-fluid {
+    width: 100%;
+  }
+
+  .texto-image {
+    margin-top: 20%;
   }
 }

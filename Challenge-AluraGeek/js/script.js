@@ -123,6 +123,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   });
 
   cleanButton.addEventListener("click", () => {
+    console.log("Botão limpar clicado");
     nameInput.value = "";
     valueInput.value = "";
     fileInput.value = "";

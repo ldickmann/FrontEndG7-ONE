@@ -1,3 +1,4 @@
+/* Estilos Gerais */
 #back-img {
   background-size: cover;
   background-repeat: no-repeat;
@@ -5,12 +6,19 @@
   height: 80vh;
 }
 
+.texto-image {
+  position: absolute;
+  top: 30%;
+  margin-left: 6%;
+}
+
 .titulo__ {
   font-family: Montserrat;
-  font-size: 32px;
+  font-size: 48px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  color: var(--Branco, #fff);
 }
 
 .destinos__item--image {
@@ -18,49 +26,38 @@
   height: 60%;
 }
 
-.titulo__pag * {
-  box-sizing: border-box;
+.titulo__pag,
+.titulo__seg,
+.titulo__paragrafo {
+  color: var(--grafite, #222222);
+  text-align: left;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .titulo__pag {
-  color: var(--grafite, #222222);
-  text-align: left;
   font-family: var(--h1-font-family);
   font-size: var(--h2-font-size, 40px);
   font-weight: var(--h2-font-weight, 700);
-  position: relative;
   width: 285px;
   height: 46px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
 }
 
 .titulo__seg {
-  color: var(--grafite);
-  text-align: left;
   font-family: var(--h1-font-family);
   font-size: 28px;
   font-weight: 700;
-  position: relative;
   width: 285px;
   height: 46px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
 }
 
 .titulo__paragrafo {
-  color: var(--grafite);
-  text-align: left;
   font-family: var(--body2-font-family);
   font-size: 20px;
   line-height: 32px;
   font-weight: 400;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
 }
 
 .depoimentos__container {
@@ -77,11 +74,11 @@
 
 .depoimentos__item {
   flex: 0 1 20%;
-  justify-content: center;
   padding: 1rem;
   border-radius: 8px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .depoimentos__texto {
@@ -94,7 +91,6 @@
 .depoimentos__autor {
   display: flex;
   align-items: center;
-  justify-content: start;
   gap: 2rem;
   margin-bottom: 1rem;
 }
@@ -134,13 +130,15 @@
   min-width: 100%;
 }
 
-@media (325px <= width <= 770px) {
+/* Estilos Responsivos */
+@media (max-width: 768px) {
   #back-img {
     height: 80vh;
   }
 
-  .titulo__ {
-    margin-top: 10rem;
+  .texto-image {
+    position: absolute;
+    top: 28%;
   }
 
   .pre-footer__image {
@@ -152,19 +150,24 @@
     display: block;
   }
 
-  .col.depoismentos__item {
-    width: 100%;  
-  }
-  
-  section {
+  .col.depoismentos__item,
+  section,
+  .col-8.mb-4.mt-4 {
     width: 100%;
   }
 
   .botao__container {
     margin-bottom: 9rem;
   }
+}
 
-  .col-8.mb-4.mt-4 {
-    min-width: 100%;
+@media (max-width: 430px) {
+  #back-img {
+    height: 80vh;
+  }
+
+  .texto-image {
+    position: absolute;
+    top: 28%;
   }
 }

@@ -366,4 +366,16 @@ body {
   .col-8.mb-4.mt-4 {
     min-width: 100%;
   }
+
+  .busca {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .busca__categorias {
+    width: 100%;
+    flex-direction: column;
+  }
 }

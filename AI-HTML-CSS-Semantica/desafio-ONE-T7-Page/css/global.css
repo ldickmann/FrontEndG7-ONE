@@ -1,3 +1,5 @@
+/* Global CSS */
+
 :root {
   /* Colors */
   --branco: #fff;
@@ -7,6 +9,7 @@
   --grafite: #222;
   --vermelho: #b81515;
 
+  /* Fonts */
   --body2-font-family: Montserrat-Regular;
   --h1-font-family: Montserrat-Bold;
 }
