@@ -30,7 +30,6 @@
 #### Challenge em Desenvolvimento:
 
 * **Desafio Challenge: Praticando Front End - Challenge AluraGeek**
-* **Aplicando refinos gerais no challenge**
 
 ---
 
