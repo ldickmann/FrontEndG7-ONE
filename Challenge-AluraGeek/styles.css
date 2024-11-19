@@ -40,11 +40,13 @@ header {
 
 /* Main */
 .container-all {
+  width: 100%;
   display: flex;
   padding: 3.75rem 2.5rem;
   justify-content: center;
   align-items: flex-start;
   gap: 4.375rem;
+  box-sizing: border-box;
 }
 
 .title-container__products {
@@ -60,6 +62,7 @@ header {
 }
 
 .section-container {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -68,6 +71,7 @@ header {
 }
 
 .products-container {
+  width: 100%;
   padding: 3rem 1rem;
   box-shadow: -12px 10px 5.8px 0px rgba(0, 0, 0, 0.25);
   max-height: 700px;
@@ -75,7 +79,6 @@ header {
   overflow-x: hidden;
   scroll-behavior: smooth;
   position: relative;
-  padding-right: 2.5rem;
 }
 
 /* Botão de rolagem */
@@ -108,13 +111,14 @@ header {
 
 /* Container de produtos */
 .products-columns {
+  width: 100%;
   display: flex;
   gap: 10px;
   padding-bottom: 1rem;
-  align-items: flex-start;
   justify-content: flex-start;
   flex-shrink: 0;
   position: relative;
+  box-sizing: border-box;
 }
 
 .product-card {
@@ -132,6 +136,7 @@ header {
   flex-shrink: 0;
   position: relative;
   box-shadow: -5px 6px 3.3px 0px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
 }
 
 .container-img {
@@ -191,11 +196,13 @@ header {
 /* Formulário */
 .forms-products {
   display: flex;
-  width: 29.5rem;
+  width: 100%;
+  max-width: 29.5rem;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 2.5rem;
+  box-sizing: border-box;
 }
 
 .forms {
@@ -319,6 +326,7 @@ footer {
 .icon-trash {
   cursor: pointer;
 }
+
 /* Responsividades */
 @media (max-width: 769px) {
   body {
