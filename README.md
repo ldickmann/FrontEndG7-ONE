@@ -30,6 +30,7 @@
 
 - **Challenge: Praticando Front End - Challenge AluraGeek**
 
+![Formação Front-end G7 - ONE](https://github.com/user-attachments/assets/d679ea98-b5eb-4c65-84ad-575dc05adff3)
 
 
 ## Badge do Challenge
